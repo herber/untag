@@ -1,0 +1,34 @@
+{
+	"name": "untag",
+	"version": "1.0.1",
+	"description": "Normalized template literals",
+	"license": "MIT",
+	"repository": "herber/untag",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "formatted && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"tag",
+		"template",
+		"tagged",
+		"indent",
+		"strip",
+		"lines"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"formatted": "^1.0.0"
+	}
+}
